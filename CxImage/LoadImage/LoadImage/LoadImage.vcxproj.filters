@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lib\CxImage\tif_xfile.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lib\CxImage\ximabmp.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lib\CxImage\ximadsp.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lib\CxImage\ximaenc.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lib\CxImage\ximaexif.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lib\CxImage\ximage.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lib\CxImage\ximagif.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lib\CxImage\ximahist.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lib\CxImage\ximaico.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lib\CxImage\ximainfo.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lib\CxImage\ximaint.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lib\CxImage\ximajas.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lib\CxImage\ximajbg.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lib\CxImage\ximajpg.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lib\CxImage\ximalpha.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lib\CxImage\ximalyr.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lib\CxImage\ximamng.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lib\CxImage\ximapal.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lib\CxImage\ximapcx.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lib\CxImage\ximapng.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lib\CxImage\ximapsd.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lib\CxImage\ximaraw.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lib\CxImage\ximasel.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lib\CxImage\ximaska.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lib\CxImage\ximatga.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lib\CxImage\ximath.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lib\CxImage\ximatif.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lib\CxImage\ximatran.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lib\CxImage\ximawbmp.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lib\CxImage\ximawmf.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lib\CxImage\ximawnd.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lib\CxImage\xmemfile.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\lib\CxImage\stdint.h">
+      <Filter>资源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\lib\CxImage\xfile.h">
+      <Filter>资源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\lib\CxImage\ximabmp.h">
+      <Filter>资源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\lib\CxImage\ximacfg.h">
+      <Filter>资源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\lib\CxImage\ximadef.h">
+      <Filter>资源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\lib\CxImage\ximage.h">
+      <Filter>资源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\lib\CxImage\ximagif.h">
+      <Filter>资源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\lib\CxImage\ximaico.h">
+      <Filter>资源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\lib\CxImage\ximaiter.h">
+      <Filter>资源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\lib\CxImage\ximajas.h">
+      <Filter>资源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\lib\CxImage\ximajbg.h">
+      <Filter>资源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\lib\CxImage\ximajpg.h">
+      <Filter>资源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\lib\CxImage\ximamng.h">
+      <Filter>资源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\lib\CxImage\ximapcx.h">
+      <Filter>资源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\lib\CxImage\ximapng.h">
+      <Filter>资源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\lib\CxImage\ximapsd.h">
+      <Filter>资源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\lib\CxImage\ximaraw.h">
+      <Filter>资源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\lib\CxImage\ximaska.h">
+      <Filter>资源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\lib\CxImage\ximatga.h">
+      <Filter>资源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\lib\CxImage\ximath.h">
+      <Filter>资源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\lib\CxImage\ximatif.h">
+      <Filter>资源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\lib\CxImage\ximawbmp.h">
+      <Filter>资源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\lib\CxImage\ximawmf.h">
+      <Filter>资源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\lib\CxImage\xiofile.h">
+      <Filter>资源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\lib\CxImage\xmemfile.h">
+      <Filter>资源文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

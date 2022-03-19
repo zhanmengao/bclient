@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QTextEdit" name="textEdit"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu_F">
+    <property name="title">
+     <string>文件(&amp;F)</string>
+    </property>
+    <addaction name="ClickNew"/>
+    <addaction name="ClickOpen"/>
+    <addaction name="ClickClose"/>
+    <addaction name="separator"/>
+    <addaction name="OnClickSave"/>
+    <addaction name="ClickSaveAs"/>
+    <addaction name="separator"/>
+    <addaction name="ClickExit"/>
+   </widget>
+   <widget class="QMenu" name="menu_E">
+    <property name="title">
+     <string>编辑(&amp;E)</string>
+    </property>
+    <addaction name="ClickRevert"/>
+    <addaction name="separator"/>
+    <addaction name="ClickClip"/>
+    <addaction name="ClickCopy"/>
+    <addaction name="ClickPaste"/>
+    <addaction name="separator"/>
+    <addaction name="actionFind_F"/>
+   </widget>
+   <widget class="QMenu" name="menu_H">
+    <property name="title">
+     <string>帮助(&amp;H)</string>
+    </property>
+    <addaction name="action_11"/>
+   </widget>
+   <addaction name="menu_F"/>
+   <addaction name="menu_E"/>
+   <addaction name="menu_H"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QToolBar" name="toolBar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="ClickNew"/>
+   <addaction name="OnClickSave"/>
+   <addaction name="ClickClose"/>
+   <addaction name="separator"/>
+   <addaction name="ClickClip"/>
+  </widget>
+  <action name="ClickNew">
+   <property name="icon">
+    <iconset resource="menu.qrc">
+     <normaloff>:/File/new.png</normaloff>:/File/new.png</iconset>
+   </property>
+   <property name="text">
+    <string>新建(&amp;N)</string>
+   </property>
+   <property name="toolTip">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/File/new.png&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="shortcut">
+    <string>Alt+N</string>
+   </property>
+  </action>
+  <action name="ClickOpen">
+   <property name="text">
+    <string>打开(&amp;O)</string>
+   </property>
+  </action>
+  <action name="ClickClose">
+   <property name="icon">
+    <iconset resource="menu.qrc">
+     <normaloff>:/File/state-error-32.png</normaloff>:/File/state-error-32.png</iconset>
+   </property>
+   <property name="text">
+    <string>关闭(&amp;C)</string>
+   </property>
+  </action>
+  <action name="OnClickSave">
+   <property name="icon">
+    <iconset resource="menu.qrc">
+     <normaloff>:/File/save.png</normaloff>:/File/save.png</iconset>
+   </property>
+   <property name="text">
+    <string>保存(&amp;S)</string>
+   </property>
+  </action>
+  <action name="ClickSaveAs">
+   <property name="text">
+    <string>另存为(&amp;A)</string>
+   </property>
+  </action>
+  <action name="ClickExit">
+   <property name="text">
+    <string>退出(&amp;X)</string>
+   </property>
+  </action>
+  <action name="ClickRevert">
+   <property name="text">
+    <string>撤销(&amp;Z)</string>
+   </property>
+  </action>
+  <action name="ClickClip">
+   <property name="icon">
+    <iconset resource="menu.qrc">
+     <normaloff>:/File/cut.png</normaloff>:/File/cut.png</iconset>
+   </property>
+   <property name="text">
+    <string>Clip(&amp;X)</string>
+   </property>
+  </action>
+  <action name="ClickCopy">
+   <property name="icon">
+    <iconset resource="menu.qrc">
+     <normaloff>:/File/copy.png</normaloff>:/File/copy.png</iconset>
+   </property>
+   <property name="text">
+    <string>Copy(&amp;C)</string>
+   </property>
+  </action>
+  <action name="ClickPaste">
+   <property name="text">
+    <string>Paste(&amp;V)</string>
+   </property>
+  </action>
+  <action name="actionFind_F">
+   <property name="text">
+    <string>Find(&amp;F)</string>
+   </property>
+  </action>
+  <action name="action_11">
+   <property name="text">
+    <string>版本说明</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="menu.qrc"/>
+ </resources>
+ <connections/>
+</ui>

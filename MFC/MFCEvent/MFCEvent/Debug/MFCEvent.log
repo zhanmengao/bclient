@@ -1,0 +1,4 @@
+﻿  MFCEventView.cpp
+d:\space\paint\mfc\mfcevent\mfcevent\mfceventview.cpp(313): warning C4066: 宽字符常量的第一个字符之外的字符被忽略
+  MFCEvent.vcxproj -> D:\Space\Paint\MFC\MFCEvent\Debug\MFCEvent.exe
+  MFCEvent.vcxproj -> D:\Space\Paint\MFC\MFCEvent\Debug\MFCEvent.pdb (Full PDB)

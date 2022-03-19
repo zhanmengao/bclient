@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/emoji">
+        <file>emoji/anguished-face_1f627.png</file>
+        <file>emoji/myicon_1.png</file>
+    </qresource>
+    <qresource prefix="/">
+        <file>emoji/editor.png</file>
+    </qresource>
+</RCC>
