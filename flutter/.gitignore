@@ -1,0 +1,6 @@
+.idea
+.vscode
+build/*
+windows/*
+.dart_tool/*
+*.pdb
