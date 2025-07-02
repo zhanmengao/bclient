@@ -28,15 +28,6 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  bool _switchSelected = true; //维护单选开关状态
-  bool _checkboxSelected = true; //维护复选框状态
-  //定义一个controller
-  TextEditingController _unameController = TextEditingController();
-  FocusNode focusNode1 = FocusNode();
-  FocusNode focusNode2 = FocusNode();
-  FocusScopeNode? focusScopeNode;
-  GlobalKey _formKey = GlobalKey<FormState>();
-
   @override
   Widget build(BuildContext context) {
     String icons = "";
@@ -147,67 +138,6 @@ class _MyHomePageState extends State<MyHomePage> {
                 "https://avatars2.githubusercontent.com/u/20411648?s=460&v=4",
               ),
               width: 100.0,
-            ),
-            //单选开关Switch和复选框Checkbox
-            Switch(
-              value: _switchSelected, //当前状态
-              onChanged: (value) {
-                //重新构建页面
-                setState(() {
-                  _switchSelected = value;
-                });
-              },
-            ),
-            Checkbox(
-              value: _checkboxSelected,
-              activeColor: Colors.red, //选中时的颜色
-              onChanged: (value) {
-                setState(() {
-                  _checkboxSelected = value!;
-                });
-              },
-            ),
-
-            // 模糊进度条(会执行一个动画)
-            LinearProgressIndicator(
-              backgroundColor: Colors.grey[200],
-              valueColor: AlwaysStoppedAnimation(Colors.blue),
-            ),
-            //进度条显示50%
-            LinearProgressIndicator(
-              backgroundColor: Colors.grey[200],
-              valueColor: AlwaysStoppedAnimation(Colors.blue),
-              value: .5,
-            ),
-            // 模糊进度条(会执行一个旋转动画)
-            CircularProgressIndicator(
-              backgroundColor: Colors.grey[200],
-              valueColor: AlwaysStoppedAnimation(Colors.blue),
-            ),
-            //进度条显示50%，会显示一个半圆
-            CircularProgressIndicator(
-              backgroundColor: Colors.grey[200],
-              valueColor: AlwaysStoppedAnimation(Colors.blue),
-              value: .5,
-            ),
-            // 线性进度条高度指定为3
-            SizedBox(
-              height: 3,
-              child: LinearProgressIndicator(
-                backgroundColor: Colors.grey[200],
-                valueColor: AlwaysStoppedAnimation(Colors.blue),
-                value: .5,
-              ),
-            ),
-            // 圆形进度条直径指定为100
-            SizedBox(
-              height: 100,
-              width: 100,
-              child: CircularProgressIndicator(
-                backgroundColor: Colors.grey[200],
-                valueColor: AlwaysStoppedAnimation(Colors.blue),
-                value: .7,
-              ),
             ),
           ],
         ),
