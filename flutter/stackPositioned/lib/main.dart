@@ -109,8 +109,67 @@ class _HomePageState extends State<HomePage> {
                 child: FlutterLogo(size: 60),
               ),
             ),
+            //DeepSeek教学使用双坐标系
+            // 左侧标准坐标系
+            Expanded(child: _LeftStandardCoordinate()),
+            // 右侧数学坐标系
+            Expanded(child: _RightMathCoordinate()),
           ],
         ),
+      ),
+    );
+  }
+
+  Widget _LeftStandardCoordinate() {
+    return Container(
+      margin: const EdgeInsets.all(10),
+      decoration: BoxDecoration(
+        border: Border.all(color: Colors.blue, width: 2),
+      ),
+      child: Stack(
+        children: [
+          const Positioned(
+            left: 0,
+            top: 0,
+            child: Text("标准坐标系 (0,0)", style: TextStyle(color: Colors.blue)),
+          ),
+          Positioned(
+            left: 50,
+            top: 30,
+            child: Container(width: 10, height: 10, color: Colors.blue),
+          ),
+        ],
+      ),
+    );
+  }
+
+  Widget _RightMathCoordinate() {
+    return Container(
+      margin: const EdgeInsets.all(10),
+      decoration: BoxDecoration(
+        border: Border.all(color: Colors.red, width: 2),
+      ),
+      child: LayoutBuilder(
+        builder: (context, constraints) {
+          final height = constraints.maxHeight;
+          return Stack(
+            children: [
+              Positioned(
+                left: 0,
+                top: height - 20,
+                child: const Text(
+                  "数学坐标系 (0,0)",
+                  style: TextStyle(color: Colors.red),
+                ),
+              ),
+              Positioned(
+                left: 50,
+                top: height - 30 - 10, // y=30 → top=height-30
+                child: Container(width: 10, height: 10, color: Colors.red),
+              ),
+            ],
+          );
+        },
       ),
     );
   }
